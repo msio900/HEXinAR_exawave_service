@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="viho admin is super flexible, powerful, clean &amp; modern responsive bootstrap 4 admin template with unlimited possibilities.">
+    <meta name="keywords" content="admin template, viho admin template, dashboard template, flat admin template, responsive admin template, web app">
+    <meta name="author" content="pixelstrap">
+    <link rel="icon" href="../assets/images/logo/fabicon.png" type="image/x-icon"> <!--탭부분 favicon img 수정-->
+    <link rel="shortcut icon" href="../assets/images/logo/fabicon.png" type="image/x-icon">
+    <title>키워드 분석</title>
+    <!-- Google font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
+    <!-- Font Awesome-->
+    <link rel="stylesheet" type="text/css" href="../assets/css/fontawesome.css">
+    <!-- ico-font-->
+    <link rel="stylesheet" type="text/css" href="../assets/css/icofont.css">
+    <!-- nanumgothic-font-->
+    <link rel="stylesheet" type="text/css" href="../assets/css/nanumgothic.css">
+    <!-- Themify icon-->
+    <link rel="stylesheet" type="text/css" href="../assets/css/themify.css">
+    <!-- Flag icon-->
+    <link rel="stylesheet" type="text/css" href="../assets/css/flag-icon.css">
+    <!-- Feather icon-->
+    <link rel="stylesheet" type="text/css" href="../assets/css/feather-icon.css">
+    <!-- Plugins css start-->
+    <link rel="stylesheet" type="text/css" href="../assets/css/animate.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/chartist.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/date-picker.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/prism.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/vector-map.css">
+    <!-- Plugins css Ends-->
+    <!-- Bootstrap css-->
+    <link rel="stylesheet" type="text/css" href="../assets/css/bootstrap.css">
+    <!-- App css-->
+    <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+    <link id="color" rel="stylesheet" href="../assets/css/color-3.css" media="screen"> <!--theme color 바꾸는 부분 color-1:초록,2:주황,3:파랑,4:남색,5:청록,6:보라-->
+    <!-- Responsive css-->
+    <link rel="stylesheet" type="text/css" href="../assets/css/responsive.css">
+    <!-- highchart 관련 css 시작 -->
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/networkgraph.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/modules/export-data.js"></script>
+    <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+    <!-- highchart 관련 css 끝 -->
+    <style>
+      #body{
+        background-image : url("../assets/images/bg2.jpg");
+      }
+      #body2{
+        background: rgba(0, 0, 0, 0);
+      }
+      #card1{
+        background: rgba(255, 255, 255, 0);
+        border-right:none;
+        border-left:none ;
+        border-top:none  ;
+        border-bottom:none;
+      }
+
+    </style>
+  </head>
+  <body>
+    <!-- Loader starts-->
+    <div class="loader-wrapper">
+      <div class="theme-loader">    
+        <div class="loader-p"></div>
+      </div>
+    </div>
+    <!-- Loader ends-->
+    <!-- page-wrapper Start-->
+    <div class="page-wrapper compact-wrapper" id="pageWrapper">
+      <!-- Page Header Start-->
+      <div class="page-main-header">
+        <div class="main-header-right row m-0">
+          <div class="main-header-left" style="border-right:none;"> <!--border-right:none 으로 오른쪽 테두리 제거 -->
+            <div class="logo-wrapper"><a href="{% url 'index' %}"><img class="img-fluid" src="../assets/images/logo/Exa_Wave_logo_d.png" alt=""></a></div> <!--src 부분에 logo img 교체-->
+            <div class="dark-logo-wrapper"><a href="{% url 'index' %}"><img class="img-fluid" src="../assets/images/logo/Exa_Wave_logo_n.png" alt=""></a></div>
+<!--            <div class="toggle-sidebar"><i class="status_toggle middle" data-feather="align-center" id="sidebar-toggle"></i></div>-->
+          </div>
+<!--          <div class="left-menu-header col" style="padding:0;">-->
+<!--            <ul>-->
+<!--              <li>-->
+<!--                <form class="form-inline search-form">-->
+<!--                  <div class="search-bg"><i class="fa fa-search"></i>-->
+<!--                    <input class="form-control-plaintext" type="text" name="relation" placeholder="관심있는 키워드를 검색해 보세요.">-->
+<!--                    <button class="btn btn-primary btn-lg">검색</button>-->
+<!--                  </div>-->
+<!--                </form><span class="d-sm-none mobile-search search-bg"><i class="fa fa-search"></i></span>-->
+<!--              </li>-->
+<!--            </ul>-->
+<!--          </div>-->
+
+          <div class="nav-right col pull-right right-menu p-0">
+            <ul class="nav-menus">
+              <li>
+                <div class="card-body dropdown-basic" style="padding:0;">
+                    <div class="dropdown">
+                      <button class="btn btn-primary-light" type="button">서비스 소개</button>
+                      <div class="dropdown-content" style="margin-top:-15px; min-width:110px;"><a href="{% url 'moreinfo' %}#datacard">데이터 소개</a><a href="{% url 'moreinfo' %}">모델 소개</a></div>
+                    </div>
+                </div>
+              </li>
+              <li>
+                <button class="btn btn-primary-light" type="button"><a href="{% url 'search2' %}"><i class="icofont icofont-growth"></i>키워드 분석</a></button>
+              </li>
+              <li>
+                <button class="btn btn-primary-light" type="button"><a href="{% url 'trend' %}"><i class="icofont icofont-paper"></i>트렌드 예측 보고서</a></button>
+              </li>
+              <li style="margin-right:0;">
+                <div data-toggle="tooltip" data-placement="right" title="전체화면 옵션"><a class="text-dark" href="#!" onclick="javascript:toggleFullScreen()"><i data-feather="maximize"></i></a></div>
+              </li> <!-- tooltip 적용 -->
+              <li style="margin-right:0;">
+                <div class="mode" data-toggle="tooltip" data-placement="right" title="야간모드"><i class="fa fa-moon-o"></i></div> <!-- tooltip 적용 -->
+              </li>
+
+              <li class="onhover-dropdown p-0">
+                  {% if request.session.logininfo.id == None %} <!--로그인 안됐을때-->
+                    <button class="btn btn-primary-light" type="button"><a href="{% url 'login_two' %}"><i data-feather="log-in"></i>로그인</a></button>
+                    <button class="btn btn-primary-light" type="button"><a href="{% url 'sign_up' %}"><i data-feather="edit"></i>회원 가입</a></button>
+                  {% else %}
+                    <span style="font-family:nanumgothic">{{request.session.logininfo.name}}님</span> <!--로그인 됐을때-->
+                    <button class="btn btn-primary-light" type="button"><a href="{% url 'logout' %}"><i data-feather="log-out"></i>로그아웃</a></button>
+                    <button class="btn btn-primary-light" type="button"><a href="{% url 'update' %}"><i data-feather="edit"></i>회원정보 수정</a></button>
+                  {% endif %}
+              </li>
+            </ul>
+          </div>
+          <div class="d-lg-none mobile-toggle pull-right w-auto"><i data-feather="more-horizontal"></i></div>
+        </div>
+      </div>
+      <!-- Page Header Ends -->
+      <!-- Page Body Start-->
+      <div class="page-body-wrapper sidebar-icon" id="body"> <!-- id설정 후 head부분에서 style설정으로 투명하게 -->
+        <div class="page-body" style="margin-left:100px; margin-right:100px;" id="body2"> <!--margin으로 양쪽 간격 조절-->
+          <!-- Container-fluid starts-->
+          <div class="container-fluid dashboard-default-sec">
+            <div class="row">
+              <div class="container-fluid px-4">
+                <h3 class="mt-4" style="color:white; text-align:center;">분석센터</h3><br>
+                    <div class="row">
+                       <!-- 임시 인풋 구간 시작 -->
+                       <div style="width:100%;">
+                          <div class="row" style="width:100%;">
+                              <div style="width:60%; margin:auto;">
+                                  <div class="card mb-4">
+
+                                      <input type="text" name="relation" placeholder="관심있는 키워드를 검색해 보세요." style="text-align:center;"><button class="btn btn-secondary btn-lg">그래프 확인<i class="icofont icofont-arrow-down"></i></button>
+                                  </div>
+                              </div>
+                          </div>
+                       </div>
+                      <!-- 임시 인풋 구간 끝 -->
+                       <div style="width:50%;">
+                          <div class="card mb-4">
+                              <div class="card-header">
+                                  <i class="fas fa-chart-area me-1"></i>
+                                  언급량 추이 그래프
+                              </div>
+                              <div class="card-body">
+                                  <div id="mention_graph" width="100%" height="40"></div>
+                              </div>
+                          </div>
+                       </div>
+                       <div style="width:50%;">
+                          <div class="card mb-4">
+                            <div class="card-header">
+                                <i class="fas fa-chart-bar me-1"></i>
+                                연관어 노드 그래프
+                            </div>
+                            <div class="card-body">
+                                <div id="relation_graph" width="100%" height="40"></div>
+                            </div>
+                          </div>
+                       </div>
+                    </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Container-fluid Ends-->
+        </div>
+        <!-- footer start-->
+        <footer class="footer" style="margin-left:0px;">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-6 footer-copyright">
+                <p class="mb-0">Copyright 2021-22 © HEXinAR All rights reserved.</p> <!--바닥글-->
+                <a href="{% url 'introduce' %}">Team members</a>
+              </div>
+              <div class="col-md-6">
+                <p class="pull-right mb-0">Hand crafted & made with <i class="fa fa-heart font-secondary"></i></p>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <!-- latest jquery-->
+    <script src="../assets/js/jquery-3.5.1.min.js"></script>
+    <!-- feather icon js-->
+    <script src="../assets/js/icons/feather-icon/feather.min.js"></script>
+    <script src="../assets/js/icons/feather-icon/feather-icon.js"></script>
+    <!-- Sidebar jquery-->
+    <script src="../assets/js/sidebar-menu.js"></script>
+    <script src="../assets/js/config.js"></script>
+    <!-- Bootstrap js-->
+    <script src="../assets/js/bootstrap/popper.min.js"></script>
+    <script src="../assets/js/bootstrap/bootstrap.min.js"></script>
+    <!-- Plugins JS start-->
+    <script src="../assets/js/chart/chartist/chartist.js"></script>
+    <script src="../assets/js/chart/chartist/chartist-plugin-tooltip.js"></script>
+    <script src="../assets/js/chart/knob/knob.min.js"></script>
+    <script src="../assets/js/chart/knob/knob-chart.js"></script>
+    <script src="../assets/js/chart/apex-chart/apex-chart.js"></script>
+    <script src="../assets/js/chart/apex-chart/stock-prices.js"></script>
+    <script src="../assets/js/prism/prism.min.js"></script>
+    <script src="../assets/js/clipboard/clipboard.min.js"></script>
+    <script src="../assets/js/counter/jquery.waypoints.min.js"></script>
+    <script src="../assets/js/counter/jquery.counterup.min.js"></script>
+    <script src="../assets/js/counter/counter-custom.js"></script>
+    <script src="../assets/js/custom-card/custom-card.js"></script>
+    <script src="../assets/js/notify/bootstrap-notify.min.js"></script>
+    <script src="../assets/js/vector-map/jquery-jvectormap-2.0.2.min.js"></script>
+    <script src="../assets/js/vector-map/map/jquery-jvectormap-world-mill-en.js"></script>
+    <script src="../assets/js/vector-map/map/jquery-jvectormap-us-aea-en.js"></script>
+    <script src="../assets/js/vector-map/map/jquery-jvectormap-uk-mill-en.js"></script>
+    <script src="../assets/js/vector-map/map/jquery-jvectormap-au-mill.js"></script>
+    <script src="../assets/js/vector-map/map/jquery-jvectormap-chicago-mill-en.js"></script>
+    <script src="../assets/js/vector-map/map/jquery-jvectormap-in-mill.js"></script>
+    <script src="../assets/js/vector-map/map/jquery-jvectormap-asia-mill.js"></script>
+    <script src="../assets/js/dashboard/default.js"></script>
+    <script src="../assets/js/notify/index.js?ver=1"></script> <!--?ver=1 붙이면 수정한 내용 적용됨-->
+    <script src="../assets/js/datepicker/date-picker/datepicker.js"></script>
+    <script src="../assets/js/datepicker/date-picker/datepicker.en.js"></script>
+    <script src="../assets/js/datepicker/date-picker/datepicker.custom.js"></script>
+    <!-- Plugins JS Ends-->
+    <!-- Theme js-->
+    <script src="../assets/js/script.js"></script>
+    <!-- login js-->
+    <!-- Plugin used-->
+    <script>
+      function display3(data3){
+        // --------------------------------------------------------------
+          const chart = new Highcharts.Chart({
+              chart: {
+                  renderTo: 'mention_graph',
+                  type: 'column',
+                  options3d: {
+                      enabled: true,
+                      alpha: 15,
+                      beta: 15,
+                      depth: 50,
+                      viewDistance: 25
+                  }
+              },
+              title: {
+                  text: 'Chart rotation demo'
+              },
+              subtitle: {
+                  text: 'Test options by dragging the sliders below'
+              },
+              plotOptions: {
+                  column: {
+                      depth: 25
+                  }
+              },
+              series: [{
+                  data: data3
+              }]
+          });
+
+          function showValues() {
+              document.getElementById('alpha-value').innerHTML = chart.options.chart.options3d.alpha;
+              document.getElementById('beta-value').innerHTML = chart.options.chart.options3d.beta;
+              document.getElementById('depth-value').innerHTML = chart.options.chart.options3d.depth;
+          }
+
+          // Activate the sliders
+          document.querySelectorAll('#sliders input').forEach(input => input.addEventListener('input', e => {
+              chart.options.chart.options3d[e.target.id] = parseFloat(e.target.value);
+              showValues();
+              chart.redraw(false);
+          }));
+
+          showValues();
+       // --------------------------------------------------------------
+      };
+
+
+      function display2(data2){
+      // --------------------------------------------------------------
+          Highcharts.addEvent(
+              Highcharts.Series,
+              'afterSetOptions',
+              function (e) {
+                  var colors = Highcharts.getOptions().colors,
+                      i = 0,
+                      nodes = {};
+
+                  if (
+                      this instanceof Highcharts.seriesTypes.networkgraph &&
+                      e.options.id === 'lang-tree'
+                  ) {
+                      e.options.data.forEach(function (link) {
+
+                          if (link[0] != null) {
+                              nodes[link[0]] = {
+                                  id: link[0],
+                                  marker: {
+                                      radius: 40
+                                  }
+                              };
+                              nodes[link[1]] = {
+                                  id: link[1],
+                                  marker: {
+                                      radius: 25
+                                  },
+                                  color: colors[i++]
+                              };
+                          } else if (nodes[link[0]] && nodes[link[0]].color) {
+                              nodes[link[1]] = {
+                                  id: link[1],
+                                  color: nodes[link[0]].color
+                              };
+                          }
+                      });
+
+                      e.options.nodes = Object.keys(nodes).map(function (id) {
+                          return nodes[id];
+                      });
+                  }
+              }
+          );
+
+          Highcharts.chart('relation_graph', {
+              chart: {
+                  type: 'networkgraph',
+                  height: '50%'
+              },
+              title: {
+                  text: '연관어 노드 그래프'
+              },
+              subtitle: {
+                  text: '검색한 키워드와 연관성이 높은 키워드입니다'
+              },
+              plotOptions: {
+                  networkgraph: {
+                      keys: ['from', 'to'],
+                      layoutAlgorithm: {
+                          enableSimulation: true,
+                          friction: -0.9
+                      }
+                  }
+              },
+              series: [{
+                  dataLabels: {
+                      enabled: true,
+                      linkFormat: ''
+                  },
+                  id: 'lang-tree',
+                  data: data2
+              }]
+          });
+      // --------------------------------------------------------------
+  };
+
+
+      function getdata(){
+          $.ajax({
+              url:'chart3',
+              datatype:'JSON',
+              success:function(data3){
+                  display3(data3);
+              }
+          });
+      };
+
+        function getdata(rela){
+            $.ajax({
+                url:'chart2',
+                data:{rela:rela},
+                datatype:'JSON',
+                success:function(data2){
+                    display2(data2);
+                },
+                error:function(){}
+            });
+        };
+
+        $(document).ready(function(){
+          $('button').click(function(){
+            rela = $('input[name="relation"]').val();
+            getdata(rela);
+          });
+        });
+
+  </script>
+  </body>
+</html>

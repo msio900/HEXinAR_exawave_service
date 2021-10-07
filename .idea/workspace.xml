@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="dae9d152-88be-4c9c-b8d9-c9567bd81eb7" name="Default Changelist" comment="3rd commit">
+      <change afterPath="$PROJECT_DIR$/assets/css/nanumgothic.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/tmonblack.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/TMONBlack.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/avtar/001.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/avtar/002.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/avtar/003.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/avtar/004.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/avtar/005.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/avtar/006.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/avtar/cs.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/avtar/hd.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/avtar/ms.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/avtar/sj.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/avtar/su.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/avtar/young.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/daumnews.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/login/bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/logo/Exa_Wave_logo_d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/logo/Exa_Wave_logo_n.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/logo/fabicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/p1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/p2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/p3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/p4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/p5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/slider/slide_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/slider/slide_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/slider/slide_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/trendbak.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/user-card/backgro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/wordcsv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sim_word.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vihotest2/templates/introduce.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vihotest2/templates/moreinfo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vihotest2/templates/search2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vihotest2/templates/trend.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/datepicker/date-picker/datepicker.en.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/datepicker/date-picker/datepicker.en.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/notify/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/notify/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frame/db.py" beforeDir="false" afterPath="$PROJECT_DIR$/frame/db.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frame/error.py" beforeDir="false" afterPath="$PROJECT_DIR$/frame/error.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/vihotest2/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/AOS.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/according.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/ace-code-editor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/add-post.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/alert.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/animate.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/avatars.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/base-input.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/basic-card.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/basic-template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/blog-single.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/blog.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/bookmark.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/bootstrap-basic-table.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/bootstrap-border-table.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/bootstrap-notify.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/bootstrap-sizing-table.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/bootstrap-styling-table.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/box-layout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/box-shadow.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/breadcrumb.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/button-builder.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/button-group.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/buttons-edge.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/buttons-flat.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/buttons.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/calendar-advanced.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/calendar-basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/calendar-event.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/calendar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/cart.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/chart-apex.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/chart-flot.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/chart-google.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/chart-knob.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/chart-morris.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/chart-peity.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/chart-sparkline.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/chart-widget.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/chartist.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/chartjs.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/chat-video.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/chat.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/checkout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/ckeditor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/clipboard.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/comingsoon-page1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/comingsoon.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/contacts.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/creat-password.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/creative-card.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/dashboard-02.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/datatable-AJAX.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/datatable-API.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/datatable-advance.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/datatable-basic-init.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/datatable-data-source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/datatable-ext-autofill.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/datatable-ext-basic-button.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/datatable-ext-col-reorder.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/datatable-ext-fixed-header.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/datatable-ext-key-table.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/datatable-ext-responsive.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/datatable-ext-row-reorder.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/datatable-ext-scroller.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/datatable-plugin.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/datatable-server-side.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/datatable-styling.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/datepicker.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/daterangepicker.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/datetimepicker.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/default-form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/dragable-card.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/dropdown.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/dropzone.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/ecommerce-templates.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/edit-profile.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/email-header.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/email-order-success.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/email_compose.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/email_inbox.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/email_read.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/error-page2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/error-page3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/faq.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/feather-icon.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/file-manager.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/flag-icon.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/font-awesome.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/footer-dark.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/footer-fixed.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/footer-light.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/forget-password.html" beforeDir="false" afterPath="$PROJECT_DIR$/vihotest2/templates/forget-password.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/form-builder-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/form-builder-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/form-validation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/form-wizard-three.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/form-wizard-two.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/form-wizard.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/gallery-hover.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/gallery-masonry.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/gallery-with-description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/gallery.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/general-widget.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/grid.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/helper-classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/ico-icon.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/image-cropper.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/vihotest2/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/input-group.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/internationalization.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/invoice-template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/job-apply.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/job-cards-view.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/job-details.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/job-list-view.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/jsgrid-table.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/kanban.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/knowledge-category.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/knowledge-detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/knowledgebase.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/landing-page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/layout-dark.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/layout-rtl.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/learning-detailed.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/learning-list-view.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/list-products.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/list-wish.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/loader.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/login-bs-tt-validation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/login-bs-validation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/login-sa-validation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/login_one.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/login_two.html" beforeDir="false" afterPath="$PROJECT_DIR$/vihotest2/templates/login_two.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/maintenance.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/map-js.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/masonry-gallery-with-disc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/megaoptions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/modal-animated.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/modal.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/navs.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/order-history.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/owl-carousel.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/pagebuild.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/pagination.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/payment-details.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/popover.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/pricing.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/product-page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/product.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/progress-bar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/projectcreate.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/projects.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/radio-checkbox-control.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/raised-button.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/range-slider.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/rating.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/ribbons.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/sample-page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/scroll-reval.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/scrollable.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/search.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/select2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/sign-up-one.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/sign-up-two.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/sign-up.html" beforeDir="false" afterPath="$PROJECT_DIR$/vihotest2/templates/sign-up.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/simple-MDE.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/social-app.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/state-color.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/steps.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/sticky.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/summernote.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/support-ticket.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/sweet-alert2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/switch.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/tab-bootstrap.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/tab-material.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/tabbed-card.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/table-components.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/tag-pills.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/template-email-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/template-email.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/themify-icon.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/tilt.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/time-picker.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/timeline-v-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/timeline-v-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/to-do.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/tooltip.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/touchspin.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/tour.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/typeahead.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/typography.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/unlock.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/update.html" beforeDir="false" afterPath="$PROJECT_DIR$/vihotest2/templates/update.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/user-cards.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/user-profile.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/vector-map.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/whether-icon.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/templates/wow.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/vihotest2/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vihotest2/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/vihotest2/views.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1xtN12bhGcoqzc6JjtYsX6ds7Ri" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/images" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\PycharmProjects\viho3\assets\images" />
+      <recent name="C:\PycharmProjects\viho3\vihotest2\templates" />
+      <recent name="C:\PycharmProjects\viho3\assets\images\slider" />
+      <recent name="C:\PycharmProjects\viho3\assets\images\avtar" />
+      <recent name="C:\PycharmProjects\viho3\assets\images\login" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\PycharmProjects\viho3" />
+      <recent name="C:\PycharmProjects\viho3\analysis" />
+      <recent name="C:\PycharmProjects\viho3\assets\fonts" />
+      <recent name="C:\PycharmProjects\viho3\data" />
+      <recent name="C:\PycharmProjects\viho3\assets\images\user-card" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.manage">
+    <configuration name="clientdb" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="vihotest2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/frame" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/frame/clientdb.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="keywordissuemap" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="viho3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/analysis" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/analysis/keywordissuemap.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="viho3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
+      <option name="PARAMETERS" value="runserver" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sim_word" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="viho3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/analysis" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/analysis/sim_word.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="vo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="vihotest2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/frame" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/frame/vo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.clientdb" />
+      <item itemvalue="Python.manage" />
+      <item itemvalue="Python.vo" />
+      <item itemvalue="Python.keywordissuemap" />
+      <item itemvalue="Python.sim_word" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.manage" />
+        <item itemvalue="Python.keywordissuemap" />
+        <item itemvalue="Python.sim_word" />
+        <item itemvalue="Python.vo" />
+        <item itemvalue="Python.clientdb" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dae9d152-88be-4c9c-b8d9-c9567bd81eb7" name="Default Changelist" comment="" />
+      <created>1631170206049</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1631170206049</updated>
+    </task>
+    <task id="LOCAL-00001" summary="2nd commit">
+      <created>1632383709538</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1632383709538</updated>
+    </task>
+    <task id="LOCAL-00002" summary="3rd commit">
+      <created>1632874335256</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1632874335256</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="2nd commit" />
+    <MESSAGE value="3rd commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="3rd commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="con" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
