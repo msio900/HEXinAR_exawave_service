@@ -136,7 +136,7 @@ import pickle
 def searchKeywords(rela):
     keyword = rela
 
-    dt_index = pd.date_range(end='20210901', periods=12, freq='M')
+    dt_index = pd.date_range(end='today', periods=12, freq='M')
     dt_list = dt_index.strftime("%Y%m").tolist()
 
     conn = sqlite3.connect('db.sqlite3')
