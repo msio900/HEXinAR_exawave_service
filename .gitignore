@@ -1,5 +1,6 @@
 ## CUSTOMS ##
 secrets.json
+exawave.db
 
 
 # Created by https://www.toptal.com/developers/gitignore/api/pycharm,python,django,visualstudiocode
