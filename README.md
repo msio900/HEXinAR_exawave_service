@@ -44,17 +44,22 @@
     ![image](https://user-images.githubusercontent.com/85272350/136385832-1c6b57de-f5f6-4a42-ba17-00af57232c87.png)
 
   - ERD
-  - 
+    ![image](https://user-images.githubusercontent.com/85272350/136387764-bbe6f020-6448-42d0-bdec-a7aceeef6954.png)
+
   - 화면정의서
     ![image](https://user-images.githubusercontent.com/85272350/136386252-5a1863cd-65cf-40b6-9983-d26b8f3e83cb.png)
 
   - WBS 작성
-  
+    ![image](https://user-images.githubusercontent.com/85272350/136387475-5649a691-cbcc-4f04-b96b-c97d22a5df46.png)
+
 * 스크래핑
   - DAUM 일자별 최신 NEWS
 * DB 저장
   - news_dummy TB : news_id, pubdate, news_name(기사 제목), news_content(기사 내용), url
-  - news_words TB : news_id, pub_date, news_words, url
+  - news_words TB : news_id, pub_date, news_words(전처리된 단어), url
+  - news_df_YYYYMM TB : 특정 단어가 언급된 기사 빈도 수
+  - news_tf_YYYYMM TB : 모든 기사에 언급된 특정 단어 전체의 빈도 수
+  - 
 * 서비스 구현
 * 
 
