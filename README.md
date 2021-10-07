@@ -37,13 +37,15 @@
 
 * 프로젝트 계획
   - 주제 선정
-  - 
+  - WIREFRAME 작성
   - ERD 작성
-  - 
+  - 화면정의서 작성
+  - WBS 작성
 * 스크래핑
-  -
-* 머신러닝
-  -
+  - DAUM 일자별 최신 NEWS
+* DB 저장
+  - news_dummy TB : news_id, pubdate, news_name(기사 제목), news_content(기사 내용), url
+  - news_words TB : news_id, pub_date, news_words, url
 * 서비스 구현
 * 
 
