@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dae9d152-88be-4c9c-b8d9-c9567bd81eb7" name="Default Changelist" comment="1007 ms 4th commit">
-      <change beforePath="$PROJECT_DIR$/analysis/keywordissuemap.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/keywordissuemap.py" afterDir="false" />
-    </list>
+    <list default="true" id="dae9d152-88be-4c9c-b8d9-c9567bd81eb7" name="Default Changelist" comment="1008 ms 1st commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,16 +41,16 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\server03_3\Develops\HEXinAR_exawave_service" />
       <recent name="C:\PycharmProjects\viho3\assets\images" />
       <recent name="C:\PycharmProjects\viho3\vihotest2\templates" />
       <recent name="C:\PycharmProjects\viho3\assets\images\slider" />
       <recent name="C:\PycharmProjects\viho3\assets\images\avtar" />
-      <recent name="C:\PycharmProjects\viho3\assets\images\login" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\PycharmProjects\viho3\vihotest2\templates" />
@@ -232,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633616521025</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="1008 ms 1st commit">
+      <created>1633638136273</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1633638136274</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -255,7 +260,8 @@
     <MESSAGE value="3rd commit" />
     <MESSAGE value="1007 ms 3rd commit" />
     <MESSAGE value="1007 ms 4th commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="1007 ms 4th commit" />
+    <MESSAGE value="1008 ms 1st commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="1008 ms 1st commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
