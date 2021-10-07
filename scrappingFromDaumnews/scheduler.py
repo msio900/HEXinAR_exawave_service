@@ -96,7 +96,7 @@ def scrap():
             print(yesterDate, 'page : ', j, 'error_code :', res.status_code, main_url)
             pass
 
-    conn = sqlite3.connect('../exawave.db')
+    conn = sqlite3.connect('../db.sqlite3')
     c = conn.cursor()
     df = pd.DataFrame(results, columns=['news_name', 'pubdate', 'news_content', 'url'])
     data_prep = df.replace('', np.nan)
