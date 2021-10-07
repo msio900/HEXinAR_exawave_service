@@ -36,6 +36,7 @@
 ## Project Scheduling<a id="idx3"></a>
 
 * 프로젝트 계획
+
   - 주제선정
     ![image](https://user-images.githubusercontent.com/85272350/136386032-597bf1f1-1285-49a9-8081-007b145243d6.png)
 
@@ -43,10 +44,12 @@
     ![image](https://user-images.githubusercontent.com/85272350/136385832-1c6b57de-f5f6-4a42-ba17-00af57232c87.png)
 
   - ERD
+  - 
   - 화면정의서
     ![image](https://user-images.githubusercontent.com/85272350/136386252-5a1863cd-65cf-40b6-9983-d26b8f3e83cb.png)
 
   - WBS 작성
+  
 * 스크래핑
   - DAUM 일자별 최신 NEWS
 * DB 저장
