@@ -38,8 +38,8 @@
             selectOtherYears: true,
             moveToOtherYearsOnSelect: true,
 
-            minDate: '',
-            maxDate: '',
+            minDate: new Date('2020-09'),
+            maxDate: new Date('2021-09'),
             disableNavWhenOutOfRange: true,
 
             multipleDates: false, // Boolean or Number

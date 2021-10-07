@@ -43,5 +43,7 @@ urlpatterns = [
     path('chart2', views.chart2, name='chart2'),
     path('chart3', views.chart3, name='chart3'),
     path('trend', views.trend, name='trend'),
+    path('signal', views.signal, name='signal'),
+    path('sad', views.sad, name='sad'),
 
 ]

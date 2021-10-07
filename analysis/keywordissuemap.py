@@ -122,9 +122,57 @@ def similarity_word(rela):
     return sim_words
 
 
+# search_keyword 빈도수
+
+import sqlite3
+import re
+from collections import Counter
+from datetime import date
+import pandas as pd
+from gensim.models import Word2Vec
+import pickle
+
+
+def searchKeywords(rela):
+    keyword = rela
+
+    dt_index = pd.date_range(end='20210901', periods=12, freq='M')
+    dt_list = dt_index.strftime("%Y%m").tolist()
+
+    conn = sqlite3.connect('db.sqlite3')
+    c = conn.cursor()
+
+    tf_word_nums = []
+    df_word_nums = []
+    categories = []
+    for i in dt_list:
+        categories.append(i[2:4] + '년 ' + i[4:6] + '월')
+        c.execute(f"SELECT num FROM tf_freq_{i} WHERE keyword LIKE '{keyword}'")
+        tf_word = c.fetchall()
+        for freq in tf_word:
+            freq = re.sub("[-=+#/\?:^$.@*\"※~&%ㆍ!』\\‘|\(\)\[\]\<\>`\'…》,]", "", str(freq))
+            tf_word_nums.append(int(freq))
+
+        c.execute(f"SELECT num FROM df_freq_{i} WHERE keyword LIKE '{keyword}'")
+        df_word = c.fetchall()
+        for freq in df_word:
+            freq = re.sub("[-=+#/\?:^$.@*\"※~&%ㆍ!』\\‘|\(\)\[\]\<\>`\'…》,]", "", str(freq))
+            df_word_nums.append(int(freq))
+
+    # name = name
+    # data = data
+
+    #     print(categories, tf_word_nums, df_word_nums)
+
+    conn.close()
+    return categories, tf_word_nums, df_word_nums
+
+
 if __name__ == "__main__":
     keywordissuemap_KIM(202010);
     print(keywordissuemap_KIM(202010));
 
     similarity_word('달고나');
     print(similarity_word("달고나"));
+
+    print(searchKeywords("손학규"))

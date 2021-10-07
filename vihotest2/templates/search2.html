@@ -163,7 +163,7 @@
                                   언급량 추이 그래프
                               </div>
                               <div class="card-body">
-                                  <div id="mention_graph" width="100%" height="40"></div>
+                                  <div id="mention_graph" width="100%"></div>
                               </div>
                           </div>
                        </div>
@@ -174,7 +174,7 @@
                                 연관어 노드 그래프
                             </div>
                             <div class="card-body">
-                                <div id="relation_graph" width="100%" height="40"></div>
+                                <div id="relation_graph" width="100%"></div>
                             </div>
                           </div>
                        </div>
@@ -191,7 +191,7 @@
             <div class="row">
               <div class="col-md-6 footer-copyright">
                 <p class="mb-0">Copyright 2021-22 © HEXinAR All rights reserved.</p> <!--바닥글-->
-                <a href="{% url 'introduce' %}">Team members</a>
+                <a href="{% url 'introduce' %}">Introduce HEXinAR Team members</a>
               </div>
               <div class="col-md-6">
                 <p class="pull-right mb-0">Hand crafted & made with <i class="fa fa-heart font-secondary"></i></p>
@@ -245,50 +245,60 @@
     <!-- login js-->
     <!-- Plugin used-->
     <script>
+
       function display3(data3){
         // --------------------------------------------------------------
-          const chart = new Highcharts.Chart({
-              chart: {
-                  renderTo: 'mention_graph',
-                  type: 'column',
-                  options3d: {
-                      enabled: true,
-                      alpha: 15,
-                      beta: 15,
-                      depth: 50,
-                      viewDistance: 25
-                  }
-              },
-              title: {
-                  text: 'Chart rotation demo'
-              },
-              subtitle: {
-                  text: 'Test options by dragging the sliders below'
-              },
-              plotOptions: {
-                  column: {
-                      depth: 25
-                  }
-              },
-              series: [{
-                  data: data3
+            Highcharts.chart('mention_graph', {
+                chart: {
+                    type: 'areaspline'
+                },
+                title: {
+                    text: '뉴스 언급량 추이 그래프'
+                },
+                legend: {
+                    layout: 'vertical',
+                    align: 'left',
+                    verticalAlign: 'top',
+                    x: 150,
+                    y: 100,
+                    floating: true,
+                    borderWidth: 1,
+                    backgroundColor:
+                        Highcharts.defaultOptions.legend.backgroundColor || '#FFFFFF'
+                },
+                xAxis: {
+                    categories: data3[0],
+                    plotBands: [{ // visualize the weekend
+                        from: 4.5,
+                        to: 6.5,
+                        color: 'rgba(68, 170, 213, .2)'
+                    }]
+                },
+                yAxis: {
+                    title: {
+                        text: ''
+                    }
+                },
+                tooltip: {
+                    shared: true,
+                    valueSuffix: ''
+                },
+                credits: {
+                    enabled: false
+                },
+                plotOptions: {
+                    areaspline: {
+                        fillOpacity: 0.5
+                    }
+                },
+                series: [{
+                  'name': '단어빈도',
+                  'data': data3[1]
+              },{
+                  'name': '문서빈도',
+                  'data': data3[2]
               }]
-          });
-
-          function showValues() {
-              document.getElementById('alpha-value').innerHTML = chart.options.chart.options3d.alpha;
-              document.getElementById('beta-value').innerHTML = chart.options.chart.options3d.beta;
-              document.getElementById('depth-value').innerHTML = chart.options.chart.options3d.depth;
-          }
-
-          // Activate the sliders
-          document.querySelectorAll('#sliders input').forEach(input => input.addEventListener('input', e => {
-              chart.options.chart.options3d[e.target.id] = parseFloat(e.target.value);
-              showValues();
-              chart.redraw(false);
-          }));
-
-          showValues();
+            });
        // --------------------------------------------------------------
       };
 
@@ -371,17 +381,7 @@
   };
 
 
-      function getdata(){
-          $.ajax({
-              url:'chart3',
-              datatype:'JSON',
-              success:function(data3){
-                  display3(data3);
-              }
-          });
-      };
-
-        function getdata(rela){
+      function getdata(rela){
             $.ajax({
                 url:'chart2',
                 data:{rela:rela},
@@ -391,7 +391,16 @@
                 },
                 error:function(){}
             });
-        };
+            $.ajax({
+                url:'chart3',
+                data:{rela:rela},
+                datatype:'JSON',
+                success:function(data3){
+                    display3(data3);
+                },
+                error:function(){}
+            });
+      };
 
         $(document).ready(function(){
           $('button').click(function(){
@@ -399,7 +408,6 @@
             getdata(rela);
           });
         });
-
   </script>
   </body>
 </html>

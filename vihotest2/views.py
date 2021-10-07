@@ -1,11 +1,13 @@
 import json
+import pickle
 
 from django.http import HttpResponse
 from django.shortcuts import render, redirect
 
 
 # Create your views here.
-from analysis.keywordissuemap import keywordissuemap_KIM, keywordissuemap_KEM, similarity_word
+from analysis.keywordissuemap import keywordissuemap_KIM, keywordissuemap_KEM, similarity_word, searchKeywords
+from analysis.test import keywordMap
 from frame.clientdb import ClientDB
 from frame.error import ErrorCode
 
@@ -92,7 +94,7 @@ def searchimpl(request):
         rela = request.POST['rela']
         data2 = similarity_word(rela)
         print(data2)
-        context = { 'data2' : HttpResponse(json.dumps(data2), content_type='application/json') }
+        context = { 'data2' : data2 }
         return render(request, 'search2.html', context)
     except Exception as err:
         print(err)
@@ -104,11 +106,13 @@ def moreinfo(request):
 
 def chart_KIM(request):
     mon = request.GET['mon'];
+    mon = mon.replace(' ', '')
     data_KIM = keywordissuemap_KIM(mon);
     return HttpResponse(json.dumps(data_KIM), content_type='application/json');
 
 def chart_KEM(request):
     mon = request.GET['mon'];
+    mon = mon.replace(' ', '')
     data_KEM = keywordissuemap_KEM(mon);
     return HttpResponse(json.dumps(data_KEM), content_type='application/json');
 
@@ -118,8 +122,26 @@ def chart2(request):
     return HttpResponse(json.dumps(data2), content_type='application/json');
 
 def chart3(request):
-    data3 = [29.9, 71.5, 106.4, 129.2, 144.0, 176.0, 135.6, 148.5, 216.4, 194.1, 95.6, 54.4]
+    rela = request.GET['rela'];
+    category = searchKeywords(rela)[0];
+    tf_word_nums = searchKeywords(rela)[1];
+    df_word_nums = searchKeywords(rela)[2];
+    data3 = [category, tf_word_nums, df_word_nums]
     return HttpResponse(json.dumps(data3), content_type='application/json');
-
 def trend(request):
     return render(request, 'trend.html')
+
+def signal(request):
+    mon = request.GET['mon'];
+    mon = mon.replace(' ', '')
+    data_signal = keywordMap(mon)[2];
+    context = {'signals': data_signal}
+    print(context)
+    return render(request, 'index.html', context)
+
+
+def sad(request):
+    data_signals = ['유수인', '정두현', '마트료시카', '모문룡', '리펜슈탈', '정순철', '박영발', '쇼블', '스웬슨', '테메노스']
+    context = {'signals': data_signals }
+    print(context)
+    return render(request, 'sad.html', context)

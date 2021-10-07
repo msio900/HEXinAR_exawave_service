@@ -199,20 +199,14 @@
                     {% csrf_token %}
                     <div class="search-bg">
                       <input class="form-control-plaintext" type="text" placeholder="검색할 키워드를 입력하세요" name="rela" size="100%" style="background-color: white; text-align:center;">
+                      {{ signals }}
                       <button type="submit" class="btn btn-light btn-lg">검색<span class="icon-search"></span></button>
                     </div>
                 </form><span class="d-sm-none mobile-search search-bg"><i class="fa fa-search"></i></span>
               </div> <!--검색창-->
-<!--              <div class="date-picker">-->
-<!--                  <form class="theme-form">-->
-<!--                    <div class="form-group row">-->
-<!--                      <label class="col-sm-3 col-form-label text-end">Month selection</label>-->
-<!--                      <div class="col-xl-5 col-sm-9">-->
-<!--                        <input class="datepicker-here form-control digits" type="text" data-language="en" data-min-view="months" data-view="months" data-date-format="yyyy MM">-->
-<!--                      </div>-->
-<!--                    </div>-->
-<!--                  </form>-->
-<!--              </div>-->
+
+
+
               <!-- 임시 인풋 구간 시작 -->
 
               <div style="width:100%; margin-top:20px;">
@@ -225,7 +219,10 @@
                                  202009 형식으로 데이터가 들어가야 함.<br>
                                  표시 가능 범위는 : 2020.09~2021.08
                             </div>
-                            <input type="text" name="month" style="text-align:center;"><button class="btn btn-secondary btn-lg">키워드 이슈맵 보기<i class="icofont icofont-arrow-down"></i></button>
+                            <div style="width:100%">
+                              <input class="datepicker-here form-control digits" type="text" name="month" data-language="en" data-min-view="months" data-view="months" data-date-format="yyyy MM" style="text-align:center;"><button class="btn btn-secondary btn-lg" style="width:100%;">키워드 이슈맵 보기<i class="icofont icofont-arrow-down"></i></button>
+                            </div>
+<!--                            <input type="text" name="month" style="text-align:center;"><button class="btn btn-secondary btn-lg">키워드 이슈맵 보기<i class="icofont icofont-arrow-down"></i></button>-->
                         </div>
                     </div>
                 </div>
@@ -254,6 +251,42 @@
                 </div>
               </div>
             </div> <!--키워드 이슈맵 들어올 자리-->
+
+            <div class="table-responsive">
+              <table class="table">
+                <thead>
+                  <tr class="table-secondary" style="text-align:center;">
+                    <th scope="col">구분</th>
+                    <th scope="col">강신호<br>( Strong Signal )</th>
+                    <th scope="col">약신호<br>( Weak Signal )</th>
+                    <th scope="col">잠재신호<br>( Latent Signal )</th>
+                    <th scope="col">잘 알려진 신호<br>( Well known Signal )</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="table-light">
+                    <th scope="row">KEM</th>
+
+                    <td></td>
+
+                    <td class="table-danger"></td>
+                    <td>{{ signals }}</td>
+                    <td>
+                        {% for signal in signals %}
+                            {{ signal }}
+                        {% endfor %}
+                    </td>
+                  </tr>
+                  <tr class="table-light">
+                    <th scope="row">KIM</th>
+                    <td></td>
+                    <td class="table-danger"></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>  <!-- 표 -->
 
             </div>
           </div>
@@ -311,7 +344,7 @@
     <script src="../assets/js/vector-map/map/jquery-jvectormap-asia-mill.js"></script>
     <script src="../assets/js/dashboard/default.js"></script>
     <script src="../assets/js/notify/index.js?ver=1"></script> <!--?ver=1 붙이면 수정한 내용 적용됨-->
-    <script src="../assets/js/datepicker/date-picker/datepicker.js"></script>
+    <script src="../assets/js/datepicker/date-picker/datepicker.js?ver=1"></script>
     <script src="../assets/js/datepicker/date-picker/datepicker.en.js?ver=1"></script>
     <script src="../assets/js/datepicker/date-picker/datepicker.custom.js"></script>
     <!-- Plugins JS Ends-->
@@ -320,6 +353,7 @@
     <!-- login js-->
     <!-- Plugin used-->
     <script>
+
   function display2(data_KEM){
     // -----------------------------------------------------------------------
         Highcharts.chart('issue_map_KEM', {
@@ -553,6 +587,15 @@
                 },
                 error:function(){}
             });
+            $.ajax({
+                url:'signal',
+                data:{mon:mon},
+                datatype:'JSON',
+                success:function(){
+                    alert({{ signals }})
+                },
+                error:function(){}
+            });
         };
 
         $(document).ready(function(){
@@ -561,6 +604,9 @@
             getdata(mon);
           });
         });
+
+    </script>
+    <script>
 
     </script>
   </body>
