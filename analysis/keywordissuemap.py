@@ -131,12 +131,18 @@ from datetime import date
 import pandas as pd
 from gensim.models import Word2Vec
 import pickle
+import datetime
 
+
+now = datetime.datetime.now()
+nowDate = now.strftime('%Y%m%d')
+yesterday = now - datetime.timedelta(1)
+yesterDate = yesterday.strftime('%Y%m%d')
 
 def searchKeywords(rela):
     keyword = rela
 
-    dt_index = pd.date_range(end='20210901', periods=12, freq='M')
+    dt_index = pd.date_range(end=yesterDate, periods=12, freq='M')
     dt_list = dt_index.strftime("%Y%m").tolist()
 
     conn = sqlite3.connect('db.sqlite3')

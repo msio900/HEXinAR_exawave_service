@@ -152,7 +152,7 @@ def scrap():
     model = Word2Vec(sentences=li_result, vector_size=100, window=5, min_count=5, workers=4, sg=0)
 
     save_data = model
-    with open("sim_word.pkl", "wb") as w:
+    with open("./sim_word.pkl", "wb") as w:
         pickle.dump(save_data, w)
 
     print('피클 저장 완료')

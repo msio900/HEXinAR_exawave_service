@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dae9d152-88be-4c9c-b8d9-c9567bd81eb7" name="Default Changelist" comment="1007 ms 3rd commit">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrappingFromDaumnews/scheduler.py" beforeDir="false" afterPath="$PROJECT_DIR$/scrappingFromDaumnews/scheduler.py" afterDir="false" />
+    <list default="true" id="dae9d152-88be-4c9c-b8d9-c9567bd81eb7" name="Default Changelist" comment="1007 ms 4th commit">
+      <change beforePath="$PROJECT_DIR$/analysis/keywordissuemap.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/keywordissuemap.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +62,7 @@
       <recent name="C:\PycharmProjects\viho3\data" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.scheduler">
+  <component name="RunManager" selected="Python.manage">
     <configuration name="keywordissuemap" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="viho3" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -181,8 +177,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.scheduler" />
         <item itemvalue="Python.manage" />
+        <item itemvalue="Python.scheduler" />
         <item itemvalue="Python.silhum" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.keywordissuemap" />
@@ -229,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633614416920</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="1007 ms 4th commit">
+      <created>1633616521025</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1633616521025</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -251,7 +254,8 @@
     <MESSAGE value="2nd commit" />
     <MESSAGE value="3rd commit" />
     <MESSAGE value="1007 ms 3rd commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="1007 ms 3rd commit" />
+    <MESSAGE value="1007 ms 4th commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="1007 ms 4th commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
