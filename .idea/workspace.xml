@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="dae9d152-88be-4c9c-b8d9-c9567bd81eb7" name="Default Changelist" comment="1008 sj 1st commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vihotest2/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/vihotest2/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +64,7 @@
       <recent name="C:\PycharmProjects\viho3\assets\fonts" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.manage">
+  <component name="RunManager" selected="Python.scheduler">
     <configuration name="keywordissuemap" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="viho3" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -284,7 +283,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633658898771</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="1008 sj 1st commit">
+      <created>1633662336928</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1633662336928</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
