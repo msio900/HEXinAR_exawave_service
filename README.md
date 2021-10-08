@@ -6,15 +6,15 @@
 
 #### 📑Contents
 
-1. [Overview](#idx1)
-2. [Subject](#idx2)
+1. [Team Member](#idx1)
+2. [Overview](#idx2)
 3. [project scheduling](#idx3)
 
 
 
 ------
 
-## Overview<a id="idx1"></a> 
+## Team Member<a id="idx1"></a> 
 
 * Subject : 뉴스 분석을 통한 미래 키워드 예측
 * Team : HEXinAR
@@ -23,14 +23,17 @@
 
 
 
-## Subject<a id="idx2"></a>
+## Overview<a id="idx2"></a>
 
-* DAUM 일자별 news를 Scraping하여  
+* DAUM 일자별 news 기사의 날짜, 제목, 내용, url을 Scraping하고 DB news_dummy TB 저장
 
   
 
-* 
+* OKT를 활용하여 명사 단위로 Token화하여 DB news_words TB 저장
 
+
+
+* Word2Vec을 활용하여 단어의 연관도를 Pickle로 저장
 
 
 ## Project Scheduling<a id="idx3"></a>
